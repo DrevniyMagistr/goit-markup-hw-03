@@ -55,7 +55,8 @@ body {
 .button{
   font-family: inherit;
   border: none;
-  border-radius: 4px;
+  border-radius: 4px;  
+  cursor: pointer;
 }
 
 /* todo______________________Global-style_______________________________________ */
@@ -102,7 +103,6 @@ body {
   letter-spacing: 0.06em;
   color: var(--title-accent-color);
   background-color: var(--accent-color);
-  cursor: pointer;
 }
 .hero-button:hover {
   background-color: var(--hover-btn-color);
