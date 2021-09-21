@@ -18,7 +18,7 @@ body {
   color: var(--text-primary-color);
   background-color: var(--primary-bg-color);
 }
-.section{
+.section {
   padding: 94px 0;
 }
 
@@ -51,6 +51,7 @@ body {
 
 .section-title {
   color: var(--title-primary-color);
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -67,7 +68,7 @@ body {
 
 /* *_____________________________ Header _____________________________*/
 
-.header > .container{
+.header > .container {
   display: flex;
   align-items: center;
 }
@@ -79,7 +80,7 @@ body {
   color: #000000;
 }
 
-.header-nav{
+.header-nav {
   margin-left: 90px;
 }
 
@@ -95,11 +96,11 @@ body {
   line-height: calc(16 / 14);
 }
 
-.header-contacts{
+.header-contacts {
   display: flex;
   margin-left: auto;
 }
-.header-contacts-item:not(:last-child){
+.header-contacts-item:not(:last-child) {
   margin-right: 50px;
 }
 .header .contacts-link {
@@ -142,14 +143,13 @@ body {
 
 /* *_____________________________ Our advantages _____________________________*/
 
-
-
 .advantages-item-title {
   font-weight: 700;
   text-transform: uppercase;
   color: var(--title-primary-color);
   line-height: 1.14;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 
 .advantages-item-text {
@@ -170,6 +170,9 @@ body {
 /* *_____________________________ Our advantages _____________________________*/
 
 /* *_____________________________ Our services _____________________________*/
+.section-services {
+  padding: 0 0 94px;
+}
 
 .service-list {
   display: flex;
@@ -184,11 +187,20 @@ body {
   background-color: var(--secondary-bg-color);
 }
 
-.about-list{
+.about-list {
   display: flex;
+  justify-content: space-between;
+}
+
+.about-list-item {
+  background-color: var(--primary-bg-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .about-title {
+  margin: 30px 0 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -198,6 +210,7 @@ body {
 }
 
 .about-description {
+  margin-bottom: 30px;
   line-height: inherit;
   letter-spacing: 0.03em;
   text-align: center;
