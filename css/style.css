@@ -68,6 +68,10 @@ body {
 
 /* *_____________________________ Header _____________________________*/
 
+.header{
+  border-bottom: 1px solid #ECECEC;
+}
+
 .header > .container {
   display: flex;
   align-items: center;
@@ -93,7 +97,7 @@ body {
   padding: 32px 0;
   color: var(--title-primary-color);
   font-weight: 500;
-  line-height: calc(16 / 14);
+  line-height: 1.14;
 }
 
 .header-contacts {
@@ -221,8 +225,17 @@ body {
 /* ! Page 2 */
 
 /* *_____________________________ Portfolio _____________________________*/
+.filter-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+}
 
+.filter-list-item:not(:last-child) {
+  margin-right: 8px;
+}
 .filter-button {
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -236,6 +249,16 @@ body {
 .filter-button:focus {
   color: var(--title-accent-color);
   background-color: var(--accent-color);
+}
+
+.product-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-list-item{
+  text-align: center;
 }
 
 .description-title {
@@ -262,10 +285,16 @@ body {
 .footer .logo-accent {
   color: var(--title-accent-color);
 }
+.footer-addess{
+  margin-top: 20px;
+}
 
 .footer-contacts-item {
   letter-spacing: 0.03em;
   color: var(--address-text-color);
+}
+.footer-contacts-item:nth-child(2n){
+  margin: 9px 0 6px;
 }
 
 /* *_____________________________ Footer _____________________________*/
