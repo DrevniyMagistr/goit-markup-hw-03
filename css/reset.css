@@ -50,6 +50,10 @@ address{
   font-style: normal;
 }
 
+.link{
+  display:block
+}
+
 
 .visually-hidden {
   position: absolute;
